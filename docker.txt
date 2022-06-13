@@ -1,0 +1,23 @@
+docker 
+: docker ps
+: docker build args ImageName location
+  args : -t(tag) name
+
+: docker run args ImageName
+  args : -it    attach 
+         --name name 
+: docker start ContainerName/ID
+: docker stop ContainerName/ID
+
+: docker pause ContainerName/ID
+: docker unpause  ContainerName/ID
+
+: docker top ContainerName/ID
+: docker stats ContainerName/ID
+
+: docker attach ContainerName/ID
+
+: docker kill ContainerName/ID
+: docker rm ContainerName/ID
+
+: docker history ImageName/ID

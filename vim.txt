@@ -1,0 +1,25 @@
+vim 
+h :left
+j :down
+k :up
+l :right
+:q! :quite with out save
+:q  :quite 
+:w  :save
+i   :insert mode
+v   :view mode
+esc :console mode
+y   :yank -> copie
+p   :past
+dd  :delete lane
+dw nb  :delete word nb of word ex -> dw or dw2 -> delete 2 word 
+d arrow :delete in a dicrection
+A   :write at the end of line
+a   :write at the end of this letter
+i   :write at start of this letter
+I   :write at the start of the lane
+U   :go back
+ctrl R :come back
+ci args:delete at is in args -> () {} 
+:set number : put lane
+:nb :nb -> numbre go to line ex -> :6 -> return go to lane 6
