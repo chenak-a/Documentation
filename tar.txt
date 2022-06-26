@@ -1,0 +1,11 @@
+tar arg file option
+arg : -op
+	op : 
+		c - Verbosely show the .tar file progress.
+		f - File name type of the archive file.
+		x - extract
+option : 
+	-C (specified directory).
+
+
+  
