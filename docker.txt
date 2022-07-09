@@ -5,7 +5,7 @@ docker
 
 : docker run args ImageName
   args : -it    attach 
-         --name name 
+         -t	 name 
 : docker start ContainerName/ID
 : docker stop ContainerName/ID
 

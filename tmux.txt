@@ -1,5 +1,6 @@
 tmux 
 tmux new -s session_name
+tmux a -t session_name
 Ctrl+b d :detach
 tmux ls
 Ctrl+b c Create a new window (with shell)
