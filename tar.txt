@@ -10,11 +10,14 @@ Compress
 	option : 
 		--exclude=*.mp4
 	EX : tar -czvf name-of-archive.tar.gz /path/to/directory-or-file
+	note : -j use bzip2 fast but compresses a bit less
+
 Extract
 		op :
 		-x: Extract
 		option : 
 		-C (specified directory).
 	EX : tar -xzvf archive.tar.gz
+
 
   
