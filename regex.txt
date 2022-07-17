@@ -1,0 +1,19 @@
+/ (letter || word) && option / special char
+
+special char (SC):
+    g : global
+    i : ignore uper lower case (case insensitive)
+    m : multiline
+    s : single line
+    u : unicode
+    y : sticky
+option :
+    . : char after or before word you can add as many
+        after : letter. (total 2 word)
+        before : .letter (total 2 word)
+    ^ : at the start
+        add :
+            OS :
+                m :find at the start of line 
+
+
