@@ -1,0 +1,14 @@
+
+lsblk : get all disck 
+
+mount : all mounded disck
+
+umount {location_Name_disck} : unmount disck ex : location_Name_disck -> /__/sdb{X}
+
+fdisk {location_Name_disck} : create new partition (format) location_Name_disck -> /__/sdb{X}
+        m : help
+        g: create gpt partition table -> most used
+        n : run 
+
+mkfs.ext4 {location_Name_disck} : for linux / create file reader 
+    .exfat {location_Name_disck} : for both linux and window -> install ``` sudo apt install exfat-utils exfat-fuse  ```
