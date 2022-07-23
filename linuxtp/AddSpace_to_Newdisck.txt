@@ -12,3 +12,20 @@ fdisk {location_Name_disck} : create new partition (format) location_Name_disck 
 
 mkfs.ext4 {location_Name_disck} : for linux / create file reader 
     .exfat {location_Name_disck} : for both linux and window -> install ``` sudo apt install exfat-utils exfat-fuse  ```
+
+df -h : show used space
+add at the end  /etc/fstab find UUID -> sudo blkid
+
+UUID=<some UID of your new partition> /mnt/disk1 ext4 defaults 0 0
+___ref__
+https://www.youtube.com/watch?v=2Z6ouBYdfZr8
+
+https://explorelinux.com/check-if-a-disk-uses-gpt-or-mbr-in-linux/
+
+______best way to do______
+LVM
+    https://www.youtube.com/watch?v=MeltFN-bXrQ
+	https://opensource.com/business/16/9/linux-users-guide-lvm
+
+____
+

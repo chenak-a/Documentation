@@ -6,6 +6,9 @@ docker
 : docker run args ImageName
   args : -it    attach 
          --name	 name 
+         -d detache
+         -p src:dst port
+         
 : docker start ContainerName/ID
 : docker stop ContainerName/ID
 
