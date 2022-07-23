@@ -1,26 +1,28 @@
 docker 
-: docker ps
-: docker build args ImageName location
+  docker image ls: list all images 
+  docker ps :list all container
+  docker ps -la :list hiden container
+  docker build args ImageName location :build image
   args : -t(tag) name
 
-: docker run args ImageName
+  docker run args ImageName : create container from image
   args : -it    attach 
          --name	 name 
          -d detache
          -p src:dst port
          
-: docker start ContainerName/ID
-: docker stop ContainerName/ID
+docker start ContainerName/ID : if conainer id stoped start it
+docker stop ContainerName/ID  : stop conainer  
 
-: docker pause ContainerName/ID
-: docker unpause  ContainerName/ID
+docker pause ContainerName/ID
+docker unpause  ContainerName/ID
 
-: docker top ContainerName/ID
-: docker stats ContainerName/ID
+docker top ContainerName/ID
+docker stats ContainerName/ID
 
-: docker attach ContainerName/ID
+docker attach ContainerName/ID :connect to conainer
 
-: docker kill ContainerName/ID
-: docker rm ContainerName/ID
+docker kill ContainerName/ID
+docker rm ContainerName/ID : to remove conainer to you to kill or stop conainer
 
-: docker history ImageName/ID
+docker history ImageName/ID
