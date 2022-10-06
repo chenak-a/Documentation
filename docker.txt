@@ -26,3 +26,7 @@ docker kill ContainerName/ID
 docker rm ContainerName/ID : to remove conainer to you to kill or stop conainer
 
 docker history ImageName/ID
+##########
+delete all container : docker rm -f $(docker ps -a -q)
+delete all images : docker rmi $(docker images -a -q)
+delete cache : docker system prune -a
