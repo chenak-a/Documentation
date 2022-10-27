@@ -54,3 +54,6 @@ Quantifiers & Alternation
     a{1,3}	between one & three
     a+?a{2,}?	match as few as possible
     ab|cd	match ab or cd
+    
+bash
+    https://wiki.bash-hackers.org/syntax/pe
