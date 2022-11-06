@@ -1,0 +1,6 @@
+
+#copie remote ssh 
+- fstp root@ip_address
+- scp source destication /note=> root@ip_address:file
+#steam file
+tail -f file
