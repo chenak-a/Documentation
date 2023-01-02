@@ -1,0 +1,2 @@
+#spceial key work arg
+def foo(positional, only, here, /, either, pos, or_, keyword, *, just, keywords):
