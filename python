@@ -1,2 +1,4 @@
-#spceial key work arg
+#spceial key word arg
 def foo(positional, only, here, /, either, pos, or_, keyword, *, just, keywords):
+#arg
+https://realpython.com/python-kwargs-and-args/
