@@ -1,3 +1,5 @@
+ Ctrl+K+C/Ctrl+K+U
+ 
 docker 
 : docker ps
 : docker build args ImageName location
